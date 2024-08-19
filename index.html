@@ -3,199 +3,248 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Trabajo Práctico HTML</title>
 </head>
 <body>
-
     <head>
-        <h1 id="inicio">Inteligencia Artificial (IA)</h1>
+        <h1>Encabezado principal</h1>
     </head>
-    
+
     <main>
 
-        <nav>
-
-            <h4 id="indice">Índice</h4>
+        <nav id="inicio">
             <ul>
-                <li><a href="#introduccion">Introducción</a></li>
-                <li><a href="#componentes">Componentes</a></li>
-                <li><a href="#funciones">Funciones</a></li>
-                <li><a href="#ejemplos">Ejemplos</a></li>
-                <li><a href="#aplicacion">Aplicacion</a></li>
-                <li><a href="#otros">Otros</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#estructura">Ir a Estructura</a></li>
+                <li><a href="#propiedades">Ir a Encabezados y propiedades</a></li>
+                <li><a href="#divisiones">Ir a Divisiones</a></li>
+                <li><a href="#listas">Ir a Listas</a></li>
+                <li><a href="#multimedia">Ir a Multimedia</a></li>
+                <li><a href="#tablas">Ir a Tablas</a></li>
+                <li><a href="#formulario">Ir a Formulario</a></li>
+                <li><a href="#final">Ir al Final</a></li>
             </ul>
-
         </nav>
-        
-        <section>
 
-            <h3 id="introduccion">Introducción</h3>
+        <section id="estructura">
+
+            <h2>1. Estructura Básica del Documento HTML</h2>
+
             <p>
-                La <b>inteligencia artificial (IA) es una rama de la informática que se centra en el desarrollo de sistemas capaces 
-                de realizar tareas que normalmente requieren la inteligencia humana</b>. Estas tareas incluyen el reconocimiento de voz,
-                la toma de decisiones, la traducción de idiomas y la visualización de datos. La IA se basa en algoritmos complejos y 
-                modelos matemáticos que permiten a las máquinas aprender de la experiencia y mejorar su rendimiento con el tiempo.
-            </p>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Dall-e_3_%28jan_%2724%29_artificial_intelligence_icon.png" 
-                alt="Cerebro cableado"
-                width="350px" height="350px"/>
-
-        </section>
-
-        <section>
-
-            <h4 id="componentes">Componente clave</h4>
-            <p>
-                Uno de los <em>componentes clave de la IA es el aprendizaje automático (machine learning), que utiliza grandes volúmenes 
-                de datos para entrenar modelos que pueden hacer predicciones precisas</em>. Los algoritmos de aprendizaje supervisado, 
-                no supervisado y de refuerzo son algunas de las técnicas más comunes en este campo. El aprendizaje profundo (deep learning) 
-                es una subcategoría del aprendizaje automático que utiliza redes neuronales artificiales para analizar datos de manera más profunda y detallada.
+                Este documento HTML tiene una estructura básica que incluye la declaración de DOCTYPE, etiquetas de metadatos y un título.
             </p>
 
         </section>
 
-        <section>
+        <section id="propiedades">
 
-            <h4 id="funciones">Funciones</h4>
-            <p>
-                La IA también incluye el <strong>procesamiento del lenguaje natural (NLP), que permite a las máquinas entender, interpretar y generar lenguaje humano. 
-                Las aplicaciones de NLP incluyen chatbots, asistentes virtuales y sistemas de traducción automática.</strong> <br>
-                Además, la visión por computadora es otra área importante de la IA, que se centra en el análisis y la interpretación de imágenes y videos.
-            </p>
-            <ol>
-                <li>Entender</li>
-                <li>Interpretar</li>
-                <li>Generar</li>
-            </ol>
+            <h2>2. Encabezados y Propiedades del Texto</h2>
+
+            <div>
+                <h1>Encabezado h1</h1>
+                <h2>Encabezado h2</h2>
+                <h3>Encabezado h3</h3>
+                <h4>Encabezado h4</h4>
+                <h5>Encabezado h5</h5>
+                <h6>Encabezado h6</h6>
+            </div>
+
+            <div>
+                <p><b>Texto en negrita</b></p>
+                <p><em>Texto en cursiva</em></p>
+                <p><strong>Texto con strong</strong></p>
+                <p><u>Texto subrayado</u></p>
+                <p><mark>Texto remarcado</mark></p>
+                <p><span>Texto enmarcado en span</span></p>
+            </div>
 
         </section>
 
-        <article>
+        <section id="divisiones">
+            
+            <h2>3. Divisiones y Agrupación de Contenido</h2>
+
+            <div>
+                <h3>Sección 1</h3>
+                <p>
+                    Contenido de la primera sección agrupada en un div.
+                </p>
+            </div>
+
+            <div>
+                <h3>Sección 2</h3>
+                <p>
+                    Contenido de la segunda sección agrupada en un div.
+                </p>
+            </div>
+
+        </section>
+
+        <section id="listas">
+
+            <h2>4. Enlaces y Listas</h2>
+
+            <div>
+                <p>
+                    Visita nuestro <a href="https://campus.frm.utn.edu.ar/course/view.php?id=1968" target="_blank">campus virtual</a> para más información.
+                </p>
+            </div>
 
             <div>
                 <nav>
-                <h3 id="ejemplos">Ejemplos de chatbots</h3>
-                
+                    <h4>Enlaces internos: </h4>
                     <ul>
-                        <li><a href="https://chatgpt.com/" target="_blank">ChatGPT</a></li>
-                        <li><a href="https://chat.mistral.ai/chat/" target="_blank">Mistral AI</a></li>
-                        <li><a href="https://chat.deepseek.com/" target="_blank">DeepSeek</a></li>
-                        <li><a href="https://postgres.new/" target="_blank">Postgres Sandbox</a></li>
+                        <li><a href="#estructura">Ir a Estructura</a></li>
+                        <li><a href="#propiedades">Ir a Encabezados y propiedades</a></li>
+                        <li><a href="#divisiones">Ir a Divisiones</a></li>
+                        <li><a href="#listas">Ir a Listas</a></li>
+                        <li><a href="#multimedia">Ir a Multimedia</a></li>
+                        <li><a href="#tablas">Ir a Tablas</a></li>
+                        <li><a href="#formulario">Ir a Formulario</a></li>
+                        <li><a href="#final">Ir al Final</a></li>
                     </ul>
                 </nav>
             </div>
 
             <div>
-                <table border="1">
-                    <thead>
-                        <tr>
-                            <th>Nombre</th>
-                            <th>Reseña</th>
-                            <th>Ventajas</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>ChatGPT</td>
-                            <td>Desarrollado por OpenAI, ChatGPT es conocido por su capacidad para generar texto coherente y responder a una amplia variedad de preguntas.</td>
-                            <td>Amplia capacidad de generación de texto y respuestas contextuales.</td>
-                        </tr>
-                        <tr>
-                            <td>MistralAI</td>
-                            <td>MistralAI es un chatbot avanzado que utiliza tecnología de inteligencia artificial para ofrecer respuestas precisas y útiles.</td>
-                            <td>Precisión y utilidad en las respuestas gracias a su avanzada tecnología de IA.</td>
-                        </tr>
-                        <tr>
-                            <td>DeepSeek</td>
-                            <td>DeepSeek es un chatbot que se especializa en la búsqueda profunda de información y en la generación de respuestas detalladas.</td>
-                            <td>Capacidad de búsqueda profunda y generación de respuestas detalladas.</td>
-                        </tr>
-                        <tr>
-                            <td>Postgres Sandbox</td>
-                            <td>Postgres Sandbox es un chatbot que se integra con bases de datos PostgreSQL para proporcionar consultas y análisis de datos en tiempo real.</td>
-                            <td>Integración con bases de datos PostgreSQL para consultas y análisis de datos en tiempo real.</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <h4>Lista desordenada: </h4>
+                <ul>
+                    <li>Primer ítem</li>
+                    <li>Segundo ítem</li>
+                    <li>Tercer ítem</li>
+                    <li>Cuarto ítem</li>
+                </ul>
+            </div>
+            
+            <div>
+                <h4>Lista ordenada: </h4>
+                <ol>
+                    <li>Primer ítem</li>
+                    <li>Segundo ítem</li>
+                    <li>Tercer ítem</li>
+                    <li>Cuarto ítem</li>
+                </ol>
             </div>
 
-        </article>
+        </section>
 
-        <section>
-            
-            <h2 id="aplicacion">Robotica</h2>
-            <p>
-                <u>La robótica es otro campo que se beneficia enormemente de la IA</u>. 
-                Los robots autónomos utilizan algoritmos de IA para navegar, realizar tareas y tomar decisiones en tiempo real. 
-                La integración de la IA en la robótica ha llevado a avances significativos en áreas como la manufactura, la medicina y la exploración espacial.
-            </p>
-            <img src="https://www.cisinformatica.cat/wp-content/uploads/2023/03/la-robotica-y-la-inteligencia-artificial.jpg.webp" 
-                alt="Robot asistido por IA"
-                width="500px" height="350px"/>
+        <section id="multimedia">
+
+            <h2>5. Elementos Multimedia</h2>
+
+            <div>
+
+                <img src="https://www.infobae.com/new-resizer/s7XB3cpZQujBt07nbhz9z2ToKJ8=/992x558/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/MWCQV4HTGRGHPCEAGVZR67HXQQ.png"
+                    alt="Volcán erupcionando"
+                    width="992px"
+                    height="558px"/>
+            </div>
+
+            <div>
+                <video src="https://videos.pexels.com/video-files/8566672/8566672-uhd_2560_1440_30fps.mp4"
+                    controls
+                    muted
+                    width="550px" height="320px">
+                </video>
+            </div>
+
+            <div>
+                <audio src="https://us-tuna-sounds-files.voicemod.net/b61e073f-c031-478a-8e16-2a38d01febd6-1643625964018.mp3" 
+                controls>
+                </audio>
+            </div>
 
         </section>
-        
-        <article>
 
-            <h5 id="otros">Otros planteos</h5>
-            <p>
-                A pesar de sus beneficios, la IA también plantea desafíos éticos y sociales. La privacidad de los datos, 
-                la transparencia de los algoritmos y el impacto en el empleo son algunas de las preocupaciones que deben 
-                abordarse a medida que la IA se integra más profundamente en nuestras vidas.
-            </p>
+        <section id="tablas">
 
-        </article>
+            <h2>6. Tablas</h2>
 
-        <article>
-            <video src="https://videos.pexels.com/video-files/8566672/8566672-uhd_2560_1440_30fps.mp4"
-                controls
-                muted
-                width="550px" height="320px">
-            </video>
-            <audio src="https://us-tuna-sounds-files.voicemod.net/b61e073f-c031-478a-8e16-2a38d01febd6-1643625964018.mp3" controls></audio>
-        </article>
+            <table border="1">
+
+                <thead>
+
+                    <tr>
+                        <th>Columna 1</th>
+                        <th>Columna 2</th>
+                        <th>Columna 3</th>
+                        <th>Columna 4</th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>Dato 1.1</td>
+                        <td>Dato 1.2</td>
+                        <td>Dato 1.3</td>
+                        <td>Dato 1.4</td>
+                    </tr>
+
+                    <tr>
+                        <td>Dato 2.1</td>
+                        <td>Dato 2.2</td>
+                        <td>Dato 2.3</td>
+                        <td>Dato 2.4</td>
+                    </tr>
+
+                    <tr>
+                        <td>Dato 3.1</td>
+                        <td>Dato 3.2</td>
+                        <td>Dato 3.3</td>
+                        <td>Dato 3.4</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+        <section id="formulario">
+
+            <h2>7. Formularios</h2>
+
+            <form>
+
+                <div>
+
+                    <label>Nombre: </label>
+                    <input type="text" placeholder="Ingrese su nombre"/>
+
+                    <label>Email: </label>
+                    <input type="email" placeholder="email@dominio.com"/>
+
+                </div>
+
+                <div>
+
+                    <label>Mensaje: </label>
+                    <textarea placeholder="Escriba su mensaje"></textarea>
+
+                    <button type="submit">Enviar</button>
+
+                </div>
+
+            </form>
+
+        </section>
 
     </main>
 
-    <footer>
-        
+    <footer id="final">
+
         <div>
-            <h5 id="contacto">Contacto</h5>
-            <p>
-                <b>Vargas Rodrigo</b> - vargasrodrigoluis@gmail.com
-            </p>
+            <p>Vargas Rodrigo 47805</p>
+            <p>Desarrollo de software 2024</p>
+            <p>Comisión 3k10</p>
         </div>
         
         <div>
-            <form>
-                <div>
-                    <label>Nombre: </label>
-                    <input type="text" placeholder="Ingresar nombre" />
-                    
-                    <label>Email: </label>
-                    <input type="email" placeholder="email@email.com"/>
-                </div>
-                <div>
-                    <label>Mensaje: </label>
-                    <textarea placeholder="Escriba su mensaje"></textarea>
-                    
-                    <button type="submit">Enviar</button>
-                </div>
-            </form>
+            <a href="#inicio">Volver al inicio</a>
         </div>
-
-        <div>
-            <h6>Desarrollo de software 2024</h6>
-        </div>
-
-        <div>
-            <a href="#inicio">Volver hacia arriba</a>
-        </div>
-
-
+        
     </footer>
 
 </body>
 </html>
-
